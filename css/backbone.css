@@ -1,4 +1,3 @@
-/* global style */
 .column {
     display: flex;
     flex-direction: column;
@@ -9,11 +8,3 @@
     display: flex;
     flex-wrap: wrap;
 }
-
-/* body */
-
-/* style header */
-
-/* style block 1 */
-
-/* style footer */
