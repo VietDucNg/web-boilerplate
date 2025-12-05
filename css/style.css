@@ -1,17 +1,17 @@
-@media (max-width: 1024px) {
+@media (min-width: 600px) {
   html {
-    font-size: 15px; /* Tablet */
+    font-size: 1.05rem; /* ~16.8px tablets*/
   }
 }
 
-@media (max-width: 768px) {
+@media (min-width: 900px) {
   html {
-    font-size: 14px; /* Mobile */
+    font-size: 1.1rem; /* ~17.6px laptops*/
   }
 }
 
-@media (max-width: 576px) {
+@media (min-width: 1200px) {
   html {
-    font-size: 13px;
+    font-size: 1.125rem; /* ~18px desktops*/
   }
 }
