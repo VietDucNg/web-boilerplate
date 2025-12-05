@@ -15,3 +15,7 @@
     font-size: 1.125rem; /* ~18px desktops*/
   }
 }
+
+body {
+  font-family: system-ui, "Segoe UI", Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans",  Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol","Noto Color Emoji";
+}
