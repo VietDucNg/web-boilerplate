@@ -1,19 +1,5 @@
-@media (min-width: 600px) {
-  html {
-    font-size: 1.05rem; /* ~16.8px tablets*/
-  }
-}
-
-@media (min-width: 900px) {
-  html {
-    font-size: 1.1rem; /* ~17.6px laptops*/
-  }
-}
-
-@media (min-width: 1200px) {
-  html {
-    font-size: 1.125rem; /* ~18px desktops*/
-  }
+html {
+  font-size: clamp(14px, 0.4vw + 1rem, 18px);
 }
 
 body {
