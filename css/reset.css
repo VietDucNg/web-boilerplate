@@ -85,7 +85,5 @@ a {
 
 /* style button */
 button {
-  cursor: pointer;
   border: none;
-  transition: all 0.1s ease;
 }
