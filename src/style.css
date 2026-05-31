@@ -2,28 +2,30 @@
   --font-size-base: clamp(14px, 0.4vw + 1rem, 18px);
   --font-color: #222;
   --space: 1lh;
-  --font-family-base: system-ui, "Segoe UI", Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans",  Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol","Noto Color Emoji";
+  --font-family-base:
+    system-ui, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans",
+    "Droid Sans", Helvetica, Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
 .grid-column {
-    display: grid;
-    grid-auto-flow: column;
+  display: grid;
+  grid-auto-flow: column;
 }
 
 .grid-row {
-    display: grid;
-    grid-auto-flow: row;
+  display: grid;
+  grid-auto-flow: row;
 }
 
 .flex-column {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+  display: flex;
+  flex-direction: column;
 }
 
 .flex-row {
-    display: flex;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 html {
@@ -37,7 +39,12 @@ body {
   color: var(--font-color);
 }
 
-h1,h2,h3,h4,h5,h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-weight: 700;
   line-height: 1.2;
 }
@@ -80,7 +87,8 @@ button {
   transition: all 0.2s ease;
 }
 
-button:hover, .active {
+button:hover,
+.active {
   transform: translateY(-2px);
 }
 
